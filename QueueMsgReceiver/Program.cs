@@ -12,7 +12,7 @@ namespace QueueMsgReceiver
     {
         
         // 'Shared Access policies' section.
-        const string ServiceBusConnectionString = "Endpoint=sb://sbusgopal.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=KioMQOsvFh9EAqMd67KKa8XpmVNh08aXh2sW3ZlqCFw=";
+        const string ServiceBusConnectionString = "connection string of service bus";
         const string QueueName = "sbusqueue";
         static IQueueClient queueClient;
 
